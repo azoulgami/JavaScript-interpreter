@@ -23,15 +23,6 @@ npm start
 Run tests using Jest:
 npm test
 
-## Hosting on the Web
-Yes, you can host this interpreter as a web app so users can run JavaScript code in their browser. Steps:
-1. Compile TypeScript - Convert your TypeScript files into a single JavaScript bundle using tsc, Vite, or Webpack.
-2. Create a front-end interface - Make an index.html file with a <textarea> for inputting JavaScript code, a <button> to execute the code, and a <div> to display output.
-3. Deploy online
-   - GitHub Pages: Push your compiled JS and index.html to the repository and enable Pages.
-   - Vercel or Netlify: Connect your GitHub repo and deploy; both host static front-end apps for free.
-   - CodeSandbox or StackBlitz: Import your repository and it runs instantly in the browser.
-
 ## Contributing
 Contributions are welcome! Fork the repo, make your changes, and submit a pull request.
 
